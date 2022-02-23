@@ -4,7 +4,12 @@ public class Hello {
         String name = "Steven";
         System.out.println("Hello, " + name);
 
-        int myFirstNumber = 5;
-        System.out.println(myFirstNumber);
+        int myFirstNumber = (10+5) + (2*10);
+        int mySecondNumber = 12;
+        int myThirdNumber = 6;
+        int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
+        System.out.println(myTotal);
+
+
     }
 }
